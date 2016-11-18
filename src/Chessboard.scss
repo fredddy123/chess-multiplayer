@@ -1,0 +1,147 @@
+.Chessboard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: Roboto, sans-serif;
+
+    .rowBlock {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .cell {
+            height: 65px;
+            width: 65px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 55px;
+            box-sizing: border-box;
+        }
+
+        .verticalCoords {
+            .verticalCoord {
+                @extend .cell;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: center;
+                padding-right: 10px;
+            }
+        }
+
+        .rightBlock {
+            .grid {
+                border-collapse: collapse;
+                table-layout: fixed;
+                position: relative;
+
+                .figure {
+                    cursor: pointer;
+
+                    &:hover {
+                        box-shadow: 0px 0px 5px rgba(50, 120, 240, 0.3);
+                        background-color: rgba(50, 120, 240, 0.2);
+                    }
+                }
+
+                .black_king {
+                    @extend .cell;
+                    @extend .figure;
+                    background-image: url(/static/images/black_king.svg);
+                }
+
+                .black_queen {
+                    @extend .cell;
+                    @extend .figure;
+                    background-image: url(/static/images/black_queen.svg);
+                }
+
+                .black_rook {
+                    @extend .cell;
+                    @extend .figure;
+                    background-image: url(/static/images/black_rook.svg);
+                }
+
+                .black_bishop {
+                    @extend .cell;
+                    @extend .figure;
+                    background-image: url(/static/images/black_bishop.svg);
+                }
+
+                .black_knight {
+                    @extend .cell;
+                    @extend .figure;
+                    background-image: url(/static/images/black_knight.svg);
+                }
+
+                .black_pawn {
+                    @extend .cell;
+                    @extend .figure;
+                    background-image: url(/static/images/black_pawn.svg);
+                }
+
+                .white_king {
+                    @extend .cell;
+                    @extend .figure;
+                    background-image: url(/static/images/white_king.svg);
+                }
+
+                .white_queen {
+                    @extend .cell;
+                    @extend .figure;
+                    background-image: url(/static/images/white_queen.svg);
+                }
+
+                .white_rook {
+                    @extend .cell;
+                    @extend .figure;
+                    background-image: url(/static/images/white_rook.svg);
+                }
+
+                .white_bishop {
+                    @extend .cell;
+                    @extend .figure;
+                    background-image: url(/static/images/white_bishop.svg);
+                }
+
+                .white_knight {
+                    @extend .cell;
+                    @extend .figure;
+                    background-image: url(/static/images/white_knight.svg);
+                }
+
+                .white_pawn {
+                    @extend .cell;
+                    @extend .figure;
+                    background-image: url(/static/images/white_pawn.svg);
+                }
+            }
+
+            .horizontalCoords {
+                display: flex;
+                flex-direction: row;
+
+                .horizontalCoord {
+                    @extend .cell;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+                    padding-top: 10px;
+                }
+            }
+        }
+
+        .statusBoard {
+            margin-left: 20px;
+            width: 200px;
+            height: 400px;
+            border: 1px solid black;
+            border-radius: 8px;
+            padding: 10px;
+            overflow: auto;
+        }
+    }
+}

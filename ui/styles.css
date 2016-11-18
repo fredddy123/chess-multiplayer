@@ -1,0 +1,87 @@
+.Chessboard__Chessboard___FjTTx {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-family: Roboto, sans-serif; }
+  .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__cell___s7Jlq, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__verticalCoords___3ajA- .Chessboard__verticalCoord___kviVc, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_king___qk3ab, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_queen___JRpUY, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_rook___16lDc, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_bishop___2TZOD, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_knight___lBmAq, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_pawn___liqLG, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_king___3LKWV, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_queen___1mKzs, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_rook___3FzEN, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_bishop___1Xq72, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_knight___n5ODh, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_pawn___2Jb-W, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__horizontalCoords___1uhjc .Chessboard__horizontalCoord___2sQY6 {
+      height: 65px;
+      width: 65px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 55px;
+      box-sizing: border-box; }
+    .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__verticalCoords___3ajA- .Chessboard__verticalCoord___kviVc {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      padding-right: 10px; }
+    .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo {
+      border-collapse: collapse;
+      table-layout: fixed;
+      position: relative; }
+      .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__figure___3XpSs, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_king___qk3ab, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_queen___JRpUY, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_rook___16lDc, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_bishop___2TZOD, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_knight___lBmAq, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_pawn___liqLG, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_king___3LKWV, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_queen___1mKzs, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_rook___3FzEN, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_bishop___1Xq72, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_knight___n5ODh, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_pawn___2Jb-W {
+        cursor: pointer; }
+        .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__figure___3XpSs:hover, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_king___qk3ab:hover, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_queen___JRpUY:hover, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_rook___16lDc:hover, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_bishop___2TZOD:hover, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_knight___lBmAq:hover, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_pawn___liqLG:hover, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_king___3LKWV:hover, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_queen___1mKzs:hover, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_rook___3FzEN:hover, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_bishop___1Xq72:hover, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_knight___n5ODh:hover, .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_pawn___2Jb-W:hover {
+          box-shadow: 0px 0px 5px rgba(50, 120, 240, 0.3);
+          background-color: rgba(50, 120, 240, 0.2); }
+      .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_king___qk3ab {
+        background-image: url(/static/images/black_king.svg); }
+      .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_queen___JRpUY {
+        background-image: url(/static/images/black_queen.svg); }
+      .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_rook___16lDc {
+        background-image: url(/static/images/black_rook.svg); }
+      .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_bishop___2TZOD {
+        background-image: url(/static/images/black_bishop.svg); }
+      .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_knight___lBmAq {
+        background-image: url(/static/images/black_knight.svg); }
+      .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__black_pawn___liqLG {
+        background-image: url(/static/images/black_pawn.svg); }
+      .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_king___3LKWV {
+        background-image: url(/static/images/white_king.svg); }
+      .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_queen___1mKzs {
+        background-image: url(/static/images/white_queen.svg); }
+      .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_rook___3FzEN {
+        background-image: url(/static/images/white_rook.svg); }
+      .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_bishop___1Xq72 {
+        background-image: url(/static/images/white_bishop.svg); }
+      .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_knight___n5ODh {
+        background-image: url(/static/images/white_knight.svg); }
+      .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__grid___35ACo .Chessboard__white_pawn___2Jb-W {
+        background-image: url(/static/images/white_pawn.svg); }
+    .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__horizontalCoords___1uhjc {
+      display: flex;
+      flex-direction: row; }
+      .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__rightBlock___22Eto .Chessboard__horizontalCoords___1uhjc .Chessboard__horizontalCoord___2sQY6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 10px; }
+    .Chessboard__Chessboard___FjTTx .Chessboard__rowBlock___3v3n3 .Chessboard__statusBoard___3n9I5 {
+      margin-left: 20px;
+      width: 200px;
+      height: 400px;
+      border: 1px solid black;
+      border-radius: 8px;
+      padding: 10px;
+      overflow: auto; }
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+@font-face {
+  font-family: Roboto;
+  src: url(/static/fonts/Roboto-Regular.ttf); }
