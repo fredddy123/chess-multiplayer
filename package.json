@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
+    "dev": "static",
     "prepublish": "babel --plugins 'transform-es2015-modules-umd' src --out-dir ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -38,6 +39,7 @@
     "eslint-plugin-react": "^6.5.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "node-sass": "^3.10.1",
+    "node-static": "^0.7.9",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "sass-loader": "^4.0.2",
